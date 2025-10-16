@@ -6,7 +6,7 @@ from core.Middleware.Auth_middleware import auth_middleware
 # from core.Middleware import Custom_CORS_middleware
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="NOC")
+app = FastAPI(title="NOC API")
 
 origins = [
     "*"  # Allows all origins
